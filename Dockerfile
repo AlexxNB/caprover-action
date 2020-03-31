@@ -4,4 +4,4 @@ RUN npm install -g caprover && npm cache clean --force
 
 COPY run.sh /run.sh
 
-ENTRYPOINT ["bash","/run.sh"]
+ENTRYPOINT ["sh","/run.sh"]

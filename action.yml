@@ -18,6 +18,10 @@ inputs:
     description: 'Branch which will be deployed'
     required: false
     default: 'master'
+  dir:
+    description: 'Subdirectory of the app in monorepository'
+    required: false
+    default: '.'
 using: 'docker'
   image: 'Dockerfile'
 

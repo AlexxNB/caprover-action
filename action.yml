@@ -22,7 +22,6 @@ inputs:
     description: 'Subdirectory of the app in monorepository'
     required: false
     default: '.'
-using: 'docker'
+runs:
+  using: 'docker'
   image: 'Dockerfile'
-
-  

@@ -6,10 +6,10 @@ branding:
   color: orange
 inputs:
   server:
-    description: 'CapRover server's admin panel URL. Ex. https://captain.root.domain.com'
+    description: 'CapRover admin panel URL. Ex. https://captain.root.domain.com'
     required: true
   password:
-    description: 'CapRover admin password. Use $\{{ secrets.CAPROVER_PASSWORD }}' for better security.
+    description: 'CapRover admin password. Use $\{{ secrets.CAPROVER_PASSWORD }} for better security.'
     required: true
   appname:
     description: 'Application name on the CapRover server. Must exists.'

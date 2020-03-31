@@ -26,9 +26,10 @@ Subdirectory of the app in monorepository. *Default: .*
 
 
 ## Example usage
-
+```
 uses: AlexxNB/caprover-action@master
 with:
   server: 'https://captain.root.domain.com'
   password: '${{ secrets.CAPROVER_PASSWORD }}'
   appname: 'my-app'
+```

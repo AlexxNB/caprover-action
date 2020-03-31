@@ -1,0 +1,24 @@
+name: 'CapRover Deploy'
+description: 'Action to deploy on Caprover server'
+author: 'Alexey Schebelev'
+branding:
+  icon: upload-cloud
+  color: orange
+inputs:
+  server:
+    description: 'CapRover server's admin panel URL. Ex. https://captain.root.domain.com'
+    required: true
+  password:
+    description: 'CapRover admin password. Use $\{{ secrets.CAPROVER_PASSWORD }}' for better security.
+    required: true
+  appname:
+    description: 'Application name on the CapRover server. Must exists.'
+    required: true
+  branch:
+    description: 'Branch which will be deployed'
+    required: false
+    default: 'master'
+using: 'docker'
+  image: 'Dockerfile'
+
+  

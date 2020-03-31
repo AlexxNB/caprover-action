@@ -20,10 +20,6 @@ Action to deploy on Caprover server.
 
 Branch which will be deployed. *Default: master*
 
-### `dir`
-
-Subdirectory of the app in monorepository. *Default: .*
-
 
 ## Example usage
 ```
